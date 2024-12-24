@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(1.webp);
+    background-size: cover;
+
+}
+
+.upper-layer{
+    font-family: comic sans ms ,Impact, 'Arial Narrow Bold' ;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 5px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.294);
+}
+
+.upper-layer h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.upper-layer h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.upper-layer .line{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    height: 2px;
+    width: 500px;
+    border: 1px solid white;
+}
+
